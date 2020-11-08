@@ -1,9 +1,9 @@
 # Write your solution here
 
-time = Time.now
-time = time.to_i
+current_time = Time.now
+current_time = current_time.to_i
 
-if time.even?
+if current_time.even?
   put ("Even!")
 else
   put ("odd")
