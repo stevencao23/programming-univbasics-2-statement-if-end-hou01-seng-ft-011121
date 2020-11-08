@@ -1,7 +1,7 @@
 time = Time.now
 time = time.to_i
 
-if time.Even?
+if time.even?
   puts "Even!"
   
 else 
