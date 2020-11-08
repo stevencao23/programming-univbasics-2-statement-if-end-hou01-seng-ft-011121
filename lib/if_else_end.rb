@@ -1,10 +1,10 @@
 # Write your solution here
 
-current_time = Time.now
-current_time = current_time.to_i
+time = time.now
+time = time.to_i
 
-if current_time % 2 == 0 
-  puts "Even!"
+if time.even?
+  put ("Even!")
 else
-  puts "Odd!"
+  put ("odd")
 end
