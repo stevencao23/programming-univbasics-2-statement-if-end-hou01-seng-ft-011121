@@ -1,3 +1,10 @@
-puts "you know what year it is??"
-this_year = 2019
-puts "Hey, It's not 2019!" unless this_year == 2019
+time = Time.now
+time = time.to_i
+
+if time % 2 == 0 
+  puts "Even"
+  
+else 
+  puts "Odd"
+  
+end
